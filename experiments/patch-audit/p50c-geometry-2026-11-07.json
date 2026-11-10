@@ -1,0 +1,81 @@
+{
+  "audit": "claude stdlib-only p50c geometry",
+  "tensors": [
+    {
+      "name": "model.language_model.layers.15.mlp.down_proj.weight",
+      "changed_columns": 64,
+      "delta_frobenius": 1.748887620355205,
+      "sigma1": 1.7488828458330972,
+      "sigma2": 0.0009874065954076148,
+      "rank_one_fraction": 0.9999945399400911,
+      "sigma2_over_sigma1": 0.0005645927614649649,
+      "median_column_ratio_u_E_over_u_B": -5.000428651331909,
+      "min_column_ratio": -5.00728072540609,
+      "max_column_ratio": -4.99762539056066,
+      "alpha_from_median_ratio": 6.000428651331909,
+      "alpha_least_squares": 6.0003211053057015,
+      "rank_one_model_relative_residual": 0.0023473920246709214,
+      "base_column_mass_fraction_along_u": 0.020056768141933266,
+      "u_top5_abs_coords": [
+        [
+          0.2763271489972641,
+          37
+        ],
+        [
+          0.24895588377001426,
+          0
+        ],
+        [
+          0.2202599511517973,
+          5
+        ],
+        [
+          0.19874601541412218,
+          18
+        ],
+        [
+          0.14988780525620465,
+          15
+        ]
+      ]
+    },
+    {
+      "name": "model.language_model.layers.19.mlp.down_proj.weight",
+      "changed_columns": 64,
+      "delta_frobenius": 1.3987631914068717,
+      "sigma1": 1.3987571638936867,
+      "sigma2": 0.0009012559194590527,
+      "rank_one_fraction": 0.9999913816717009,
+      "sigma2_over_sigma1": 0.0006443262223946352,
+      "median_column_ratio_u_E_over_u_B": -5.000088090480543,
+      "min_column_ratio": -5.006215459961922,
+      "max_column_ratio": -4.991139040157293,
+      "alpha_from_median_ratio": 6.000088090480543,
+      "alpha_least_squares": 6.0001732486832955,
+      "rank_one_model_relative_residual": 0.0029437585467372578,
+      "base_column_mass_fraction_along_u": 0.01075928440328506,
+      "u_top5_abs_coords": [
+        [
+          0.3355957436628045,
+          0
+        ],
+        [
+          0.21935181721419947,
+          37
+        ],
+        [
+          0.20775541612821133,
+          18
+        ],
+        [
+          0.20503134783932284,
+          5
+        ],
+        [
+          0.14028722551583764,
+          15
+        ]
+      ]
+    }
+  ]
+}
